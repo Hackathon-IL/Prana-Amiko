@@ -15,7 +15,7 @@ class SplashScreen : AppCompatActivity() {
         //abrir a login activity após 3 segundos
         Handler(Looper.getMainLooper()).postDelayed({
             //iniciar um intent
-            val myIntent = Intent(this, MainActivity::class.java)
+            val myIntent = Intent(this, LanguageActivity::class.java)
             startActivity(myIntent)
             finish()
         }, 5000)

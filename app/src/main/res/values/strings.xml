@@ -1,9 +1,27 @@
 <resources>
     <string name="app_name">komunat</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
+    <string name="language_english">English</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_french">Français</string>
+
+    <string name="context1">I need help with:</string>
+    <string name="context8">Language</string>
+    <string name="context2">Daily demands</string>
+    <string name="context3">Medical assistance</string>
+    <string name="context4">Social assistance</string>
+    <string name="context5">Customs</string>
+    <string name="context6">Education</string>
+    <string name="context7">Culture</string>
+
+    <string name="solution_button">Help me</string>
+
+
+    <string-array name="Languages">languages
+        <item>Tupi</item>
+        <item>Macro-Jê</item>
+        <item>Karib</item>
+        <item>Aruak</item>
+        <item>Pano</item></string-array>
+
 </resources>
