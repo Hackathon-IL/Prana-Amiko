@@ -7,6 +7,18 @@
     android:background="#C4E1A1"
     tools:context=".LanguageActivity">
 
+    <TextView
+        android:id="@+id/lang_pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:text="@string/language_portuguese"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lang_eng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/logo_langscreen"
         android:layout_width="266dp"
@@ -36,33 +48,20 @@
         android:id="@+id/lang_eng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="19dp"
         android:text="@string/language_english"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/lang_pt"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/lang_pt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="@string/language_portuguese"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/lang_spa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/lang_spa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="19dp"
         android:text="@string/language_spanish"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"

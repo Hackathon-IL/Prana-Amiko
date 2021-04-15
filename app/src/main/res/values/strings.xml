@@ -5,16 +5,24 @@
     <string name="language_spanish">Español</string>
     <string name="language_french">Français</string>
 
-    <string name="context1">I need help with:</string>
-    <string name="context8">Language</string>
-    <string name="context2">Daily demands</string>
-    <string name="context3">Medical assistance</string>
-    <string name="context4">Social assistance</string>
-    <string name="context5">Customs</string>
-    <string name="context6">Education</string>
-    <string name="context7">Culture</string>
+    <string name="context1">Escolha um tópico:</string>
+    <string name="context8">Idioma</string>
+    <string name="context2">Situações cotidianas (compras, casa, parque, etc)</string>
+    <string name="context9">Situações no trabalho</string>
+    <string name="context3">Assistência médica</string>
+    <string name="context4">Assistência social</string>
+    <string name="context5">Serviços de fronteira</string>
+    <string name="context6">Educação</string>
+    <string name="context7">Cultura</string>
 
-    <string name="solution_button">Help me</string>
+    <string name ="about">Komunat é fácil de usar:
+    1.Escolha seu idioma e a situação da história que você deseja transformar.
+    <br/>2. Transforme sua história com apoio do mediador comunitária de humor.
+    <br/>3. Crie seu selo Komunat e pronto! Você pode comercializar seu selo Komunat com quem você quiser!</string>
+    <string name = "howto">Como funciona?</string>
+
+
+    <string name="solution_button">Iniciar</string>
 
 
     <string-array name="Languages">languages
@@ -22,6 +30,7 @@
         <item>Macro-Jê</item>
         <item>Karib</item>
         <item>Aruak</item>
-        <item>Pano</item></string-array>
+        <item>Pano</item>
+    </string-array>
 
 </resources>

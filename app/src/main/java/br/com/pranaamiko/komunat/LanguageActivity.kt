@@ -12,9 +12,9 @@ class LanguageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_language)
 
-        val english = findViewById<TextView>(R.id.lang_eng)
+        val portuguese = findViewById<TextView>(R.id.lang_pt)
 
-        english.setOnClickListener {
+        portuguese.setOnClickListener {
             val mIntent = Intent(this, ContextActivity::class.java)
             startActivity(mIntent)
         }
